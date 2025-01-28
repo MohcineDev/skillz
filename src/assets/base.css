@@ -3,6 +3,7 @@
   --blue:#286bf0;
   --blue-dark:#143e92;
   --red:crimson;
+  --red-light:rgb(221, 68, 68);
   --vt-c-white: #ffffff;
   --vt-c-white-soft: #f8f8f8;
   --vt-c-white-mute: #f2f2f2;
@@ -75,4 +76,8 @@ body {
 
 a{
   text-decoration: none;
+}
+
+svg{
+  width: 30px;
 }

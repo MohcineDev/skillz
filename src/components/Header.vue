@@ -13,7 +13,9 @@
       </h1>
       <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim qui harum
-        cumque a tenetur in recusandae officia minima voluptas earum.
+        cumque a tenetur in recusandae officia minima voluptas earum. cumque a
+        tenetur in recusandae officia minima voluptas earum. cumque a tenetur in
+        recusandae officia minima voluptas earum.
       </p>
       <div class="wrapper">
         <a href="" class="courses"
@@ -34,20 +36,22 @@
           </svg>
         </a>
         <div class="demo">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="size-6"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="m15.75 10.5 4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25h-9A2.25 2.25 0 0 0 2.25 7.5v9a2.25 2.25 0 0 0 2.25 2.25Z"
-            />
-          </svg>
+          <i>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m15.75 10.5 4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25h-9A2.25 2.25 0 0 0 2.25 7.5v9a2.25 2.25 0 0 0 2.25 2.25Z"
+              />
+            </svg>
+          </i>
 
           <a href="">Watch Demo</a>
         </div>
@@ -60,6 +64,13 @@
 </template>    
 
 <style scoped>
+header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 4rem 20px;
+  align-items: center;
+  justify-content: center;
+}
 .wrapper {
   display: flex;
   align-items: center;
@@ -70,8 +81,16 @@
   display: flex;
   align-items: center;
 }
-.demo svg {
+.demo i {
   margin: 10px;
+  background: rgb(253, 182, 49);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display:flex;
+  color:#fff;
+  align-items:center;
+  justify-content:center;
 }
 .demo a {
   text-decoration-line: underline;
@@ -86,13 +105,10 @@
   display: flex;
   align-items: center;
 }
-header {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  margin: 4rem 20px;
-  align-items: center;
-  justify-content: center;
+.wrapper a.courses svg {
+  margin-left: 5px;
 }
+
 .left {
 }
 img {
@@ -118,6 +134,7 @@ h1 {
   color: #eee;
   border-radius: 20px;
   padding: 5px 10px;
+  margin-right: 5px;
 }
 svg {
   width: 20px;
