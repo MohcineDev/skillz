@@ -39,6 +39,7 @@ export default {
   background-color: var(--blue-dark); /* Dark background */
   color: #ffffff;
   padding: 20px 0;
+  margin-top: 8rem;
 }
 .container {
   display: flex;
