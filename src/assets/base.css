@@ -1,9 +1,13 @@
 /* color palette from <https://github.com/vuejs/theme> */
 :root {
   --blue:#286bf0;
-  --blue-dark:#143e92;
+  --blue-dark:#135da0;
+  --blue-light:#6399ff;
+  --dark:#101020;
+  
   --red:crimson;
   --red-light:rgb(221, 68, 68);
+  --max-width:1300px;
   --vt-c-white: #ffffff;
   --vt-c-white-soft: #f8f8f8;
   --vt-c-white-mute: #f2f2f2;

@@ -1,9 +1,8 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
 function toggleNav() {
-const linksContainer = document.querySelector('.links-container') 
-  linksContainer.classList.toggle('slide-nav')
-  
+  const linksContainer = document.querySelector(".links-container");
+  linksContainer.classList.toggle("slide-nav");
 }
 </script>
 
@@ -41,8 +40,9 @@ const linksContainer = document.querySelector('.links-container')
 nav {
   max-width: 1300px;
   margin: 0 auto;
-  padding: 10px;
+  padding: 1rem 10px;
   display: flex;
+  justify-content: space-between;
 }
 .toggle-nav {
   display: none;
@@ -99,9 +99,8 @@ a {
     margin: 1rem;
   }
 
-.slide-nav{
-  left: 0;
-
-}
+  .slide-nav {
+    left: 0;
+  }
 }
 </style>

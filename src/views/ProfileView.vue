@@ -7,22 +7,25 @@ import profileCourse from "../components/profileCourse.vue";
 <template>
   <NavBar />
   <section class="taken-courses">
-    <h2>My Courses</h2>
     <div class="container">
+      <h2>My Courses</h2>
+      <div class="wrapper">
 
         <profileCourse />
         <profileCourse class="two" />
         <profileCourse class="three" />
+      </div>
     </div>
   </section>
   <section>
     <div class="container">
       <h2>My Next Lessons</h2>
+
       <div class="lessons">
         <div class="header">
-          <span>lesson</span>
-          <span>teacher</span>
-          <span>duration</span>
+          <span>Lesson</span>
+          <span>Teacher</span>
+          <span>Duration</span>
         </div>
         <div class="line">
           <div>
@@ -101,21 +104,26 @@ import profileCourse from "../components/profileCourse.vue";
 section {
   padding: 1rem;
 }
-section {
-  max-width: 1200px;
+
+.container {
+  max-width: var(--max-width);
   margin: 2rem auto;
 }
-.taken-courses .container{
+
+.wrapper {
   display: flex;
+
 }
+
 .two {
   background: rgb(229, 128, 251);
 }
+
 .three {
   background: rgb(151, 177, 242);
 }
 
-.teacher > div {
+.teacher>div {
   width: 40px;
   height: 40px;
   background: url("../assets/images.jpeg") center / cover;
@@ -123,40 +131,56 @@ section {
   border: 1px solid #222;
   margin-left: -10px;
 }
+
 .lessons {
-  max-width: 1200px;
   margin: 2rem auto;
   border: 1px solid #555;
   padding: 2rem;
   border-radius: 20px;
+  box-shadow: 0 0 3px #506a92;
+
 }
+
+.lessons .header {
+  font-weight: 600;
+}
+
 .teacher {
   display: flex;
   align-items: center;
 }
+
 .teacher span {
   margin-left: 15px;
 }
+
 .header,
 .line {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
 }
+
 .header>span:nth-child(1),
 .line>div:nth-child(1) {
-    justify-self: start;
+  justify-self: start;
 }
+
 .line {
   align-items: center;
+}
+
+.line:not(.line:last-child) {
   border-bottom: 1px solid #888;
 }
-.line>div>p:nth-child(1){
-    color:#222;
-    font-weight: 700;
-    margin-bottom: 5px;
+
+.line>div>p:nth-child(1) {
+  color: #222;
+  font-weight: 700;
+  margin-bottom: 5px;
 }
-.line>div>p:nth-child(2){
-    margin-top: 0;
+
+.line>div>p:nth-child(2) {
+  margin-top: 0;
 }
 </style>
