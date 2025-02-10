@@ -1,0 +1,265 @@
+{
+    "questions": [
+      {
+        "question": "What is the purpose of the 'alt' attribute in an <img> tag in HTML?",
+        "options": [
+          "To define alternative text for screen readers",
+          "To specify the image file path",
+          "To control the size of the image",
+          "To create a hyperlink from the image"
+        ],
+        "correct_answer": "To define alternative text for screen readers"
+      },
+      {
+        "question": "Which of the following is used to style a website's layout using CSS?",
+        "options": [
+          "HTML tags",
+          "CSS selectors",
+          "JavaScript functions",
+          "HTML attributes"
+        ],
+        "correct_answer": "CSS selectors"
+      },
+      {
+        "question": "Which of the following is NOT a valid JavaScript data type?",
+        "options": [
+          "String",
+          "Integer",
+          "Boolean",
+          "Object"
+        ],
+        "correct_answer": "Integer"
+      },
+      {
+        "question": "What is the command to initialize a Git repository?",
+        "options": [
+          "git create",
+          "git init",
+          "git start",
+          "git clone"
+        ],
+        "correct_answer": "git init"
+      },
+      {
+        "question": "How do you push changes to a GitHub repository?",
+        "options": [
+          "git push origin master",
+          "git commit -m 'message'",
+          "git pull origin master",
+          "git sync"
+        ],
+        "correct_answer": "git push origin master"
+      },
+      {
+        "question": "Which utility in Tailwind CSS helps to apply responsive design?",
+        "options": [
+          "@media queries",
+          "Responsive variants like 'sm:', 'md:'",
+          "Flexbox utilities",
+          "Grid layout"
+        ],
+        "correct_answer": "Responsive variants like 'sm:', 'md:'"
+      },
+      {
+        "question": "What is a feature of Next.js?",
+        "options": [
+          "Static site generation",
+          "Database integration out of the box",
+          "Real-time chat integration",
+          "Built-in SEO optimization"
+        ],
+        "correct_answer": "Static site generation"
+      },
+      {
+        "question": "Which of the following is a key benefit of Vue.js?",
+        "options": [
+          "Declarative rendering with two-way data binding",
+          "Built-in server-side rendering",
+          "Supports only Vue Router for navigation",
+          "No need for Vue CLI"
+        ],
+        "correct_answer": "Declarative rendering with two-way data binding"
+      },
+      {
+        "question": "What is the main difference between SQLite and other SQL databases?",
+        "options": [
+          "SQLite is a serverless database",
+          "SQLite supports no SQL queries",
+          "SQLite requires a remote server",
+          "SQLite does not support transactions"
+        ],
+        "correct_answer": "SQLite is a serverless database"
+      },
+      {
+        "question": "What does the HTTP method 'GET' do?",
+        "options": [
+          "Creates a new resource",
+          "Fetches data from the server",
+          "Deletes data on the server",
+          "Updates data on the server"
+        ],
+        "correct_answer": "Fetches data from the server"
+      },
+      {
+        "question": "Which Go package is used for working with maps?",
+        "options": [
+          "map",
+          "slice",
+          "collections",
+          "sync"
+        ],
+        "correct_answer": "sync"
+      },
+      {
+        "question": "What does the 'make()' function do in Go?",
+        "options": [
+          "Creates a new map, slice, or channel",
+          "Creates a new type",
+          "Compiles the program",
+          "Creates a new variable"
+        ],
+        "correct_answer": "Creates a new map, slice, or channel"
+      },
+      {
+        "question": "Which of the following is true about structs in Go?",
+        "options": [
+          "A struct is a collection of variables of the same type",
+          "A struct is used for creating functions",
+          "A struct is used to define new data types",
+          "A struct cannot contain methods"
+        ],
+        "correct_answer": "A struct is used to define new data types"
+      },
+      {
+        "question": "What are channels used for in Go?",
+        "options": [
+          "Managing memory allocation",
+          "Concurrency and communication between goroutines",
+          "Handling error messages",
+          "Performing I/O operations"
+        ],
+        "correct_answer": "Concurrency and communication between goroutines"
+      },
+      {
+        "question": "What is the purpose of a mutex in Go?",
+        "options": [
+          "To synchronize access to shared resources between goroutines",
+          "To start a new goroutine",
+          "To wait for a goroutine to finish",
+          "To allocate memory"
+        ],
+        "correct_answer": "To synchronize access to shared resources between goroutines"
+      },
+      {
+        "question": "What is the difference between buffered and unbuffered channels in Go?",
+        "options": [
+          "Buffered channels can hold multiple values without blocking",
+          "Unbuffered channels can hold multiple values without blocking",
+          "Buffered channels use less memory",
+          "Unbuffered channels are faster"
+        ],
+        "correct_answer": "Buffered channels can hold multiple values without blocking"
+      },
+      {
+        "question": "What does a rune represent in Go?",
+        "options": [
+          "A 32-bit Unicode character",
+          "A 16-bit ASCII character",
+          "A boolean value",
+          "A pointer to a string"
+        ],
+        "correct_answer": "A 32-bit Unicode character"
+      },
+      {
+        "question": "What is the Gorilla toolkit in Go used for?",
+        "options": [
+          "Building web applications",
+          "Concurrency handling",
+          "Database integration",
+          "API testing"
+        ],
+        "correct_answer": "Building web applications"
+      },
+      {
+        "question": "What does a REST API typically use to communicate between the client and server?",
+        "options": [
+          "WebSockets",
+          "HTTP methods",
+          "SQL queries",
+          "TCP sockets"
+        ],
+        "correct_answer": "HTTP methods"
+      },
+      {
+        "question": "Which of the following is true about GraphQL?",
+        "options": [
+          "It is a query language for APIs",
+          "It is based on REST principles",
+          "It only supports GET requests",
+          "It uses XML format for responses"
+        ],
+        "correct_answer": "It is a query language for APIs"
+      },
+      {
+        "question": "What is type casting in Go?",
+        "options": [
+          "Converting one type into another",
+          "Changing the type of a variable at runtime",
+          "Converting integer to string only",
+          "Defining custom data types"
+        ],
+        "correct_answer": "Converting one type into another"
+      },
+      {
+        "question": "What does the term 'Full-Stack Developer' mean?",
+        "options": [
+          "A developer who works on both frontend and backend technologies",
+          "A developer who specializes only in backend technologies",
+          "A developer who handles database management",
+          "A developer who works only on UI/UX design"
+        ],
+        "correct_answer": "A developer who works on both frontend and backend technologies"
+      },
+      {
+        "question": "What is a common use case for WebSockets in web development?",
+        "options": [
+          "For sending real-time updates between the client and server",
+          "For handling static file storage",
+          "For querying databases",
+          "For handling server-side routing"
+        ],
+        "correct_answer": "For sending real-time updates between the client and server"
+      },
+      {
+        "question": "What is the purpose of Cross-Origin Resource Sharing (CORS) in web development?",
+        "options": [
+          "To allow web pages to make requests to domains other than their own",
+          "To encrypt communication between the server and client",
+          "To monitor traffic between frontend and backend",
+          "To handle session management"
+        ],
+        "correct_answer": "To allow web pages to make requests to domains other than their own"
+      },
+      {
+        "question": "What does 'npm' stand for in the context of JavaScript development?",
+        "options": [
+          "Node Package Manager",
+          "Node Project Manager",
+          "Native Package Manager",
+          "New Programming Model"
+        ],
+        "correct_answer": "Node Package Manager"
+      },
+      {
+        "question": "What is the purpose of using a CDN (Content Delivery Network) in web development?",
+        "options": [
+          "To serve content like images, videos, and scripts faster by using servers close to the user",
+          "To manage user authentication",
+          "To store large datasets on a remote server",
+          "To host a database server"
+        ],
+        "correct_answer": "To serve content like images, videos, and scripts faster by using servers close to the user"
+      }
+    ]
+  }
+  
